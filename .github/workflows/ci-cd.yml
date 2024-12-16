@@ -30,4 +30,4 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        pytest todo-test.py --cov=. --cov-report=xml
+        pytest todo-test.py

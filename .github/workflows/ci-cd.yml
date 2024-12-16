@@ -34,6 +34,7 @@ jobs:
     - name: Security check with bandit
       run: |
         bandit -r . -c pyproject.toml
+        additional_dependencies: [ "bandit[toml]" ]
 
     - name: Run tests with pytest
       run: |
